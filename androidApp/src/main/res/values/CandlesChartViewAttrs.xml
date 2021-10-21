@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CandlesChartView">
+        <attr name="colorCandleLong" format="color"/>
+        <attr name="colorCandleShort" format="color"/>
+        <attr name="barsPadding" format="dimension"/>
+    </declare-styleable>
+</resources>

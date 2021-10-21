@@ -1,0 +1,16 @@
+CREATE TABLE Settings (
+userKey TEXT NOT NULL,
+userSecret TEXT NOT NULL,
+lastSync INTEGER
+);
+
+insertSettings:
+INSERT INTO Settings(userKey, userSecret, lastSync)
+VALUES(?, ?, ?);
+
+getSettings:
+SELECT * FROM Settings
+LIMIT 1;
+
+clear:
+DELETE FROM Settings;

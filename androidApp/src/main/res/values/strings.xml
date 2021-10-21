@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_account_title">Account</string>
+    <string name="menu_account_tooltip">Binance account settings</string>
+
+    <string name="main_title">Binance candles: %s</string>
+    <string name="volume_field">Volume: %s</string>
+
+    <string name="authorization_title">Binance account</string>
+    <string name="userKeyTitle">Binance Key</string>
+    <string name="userKeyHint">Enter your binance key</string>
+    <string name="userSecretTitle">Binance Secret</string>
+    <string name="userSecretHint">Enter you binance secret</string>
+    <string name="saveUser">Save</string>
+</resources>

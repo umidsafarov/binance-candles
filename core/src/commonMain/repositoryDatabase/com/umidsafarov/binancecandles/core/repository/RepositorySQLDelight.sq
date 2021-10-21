@@ -1,0 +1,19 @@
+CREATE TABLE KlineRow (
+    open REAL NOT NULL,
+    close REAL NOT NULL,
+    high REAL NOT NULL,
+    low REAL NOT NULL,
+    volume REAL NOT NULL,
+    timeOpen INTEGER NOT NULL,
+    timeClose INTEGER NOT NULL
+);
+
+insertKline:
+INSERT INTO KlineRow(open, close, high, low, volume, timeOpen, timeClose)
+VALUES(?, ?, ?, ?, ?, ?, ?);
+
+removeAllKlinesLaunches:
+DELETE FROM KlineRow;
+
+selectAllKlinesInfo:
+SELECT * FROM KlineRow;

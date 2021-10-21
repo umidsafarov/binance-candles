@@ -1,0 +1,9 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'iosApp' do
+  use_frameworks!
+  platform :ios, '14.1'
+  pod 'core', :path => '../core/'
+
+end
